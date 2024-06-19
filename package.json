@@ -1,0 +1,33 @@
+{
+  "name": "mock-base64-shortner",
+  "version": "0.0.1",
+  "description": "Shorten a base64 long text. Still allow reversing the process.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npx ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TchiRubick/mock-base64-shortner.git"
+  },
+  "keywords": [
+    "base64",
+    "mock",
+    "shortner"
+  ],
+  "author": "tchi.devica@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TchiRubick/mock-base64-shortner/issues"
+  },
+  "homepage": "https://github.com/TchiRubick/mock-base64-shortner#readme",
+  "dependencies": {
+    "@types/node": "^20.14.6",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
